@@ -1,0 +1,15 @@
+- name: Deploy server-stats.sh script to EC2
+  hosts: ec2
+  become: true
+  tasks:
+    - name: Copy the server-stats.sh script to the EC2 instance
+      copy:
+        src: ./server-stats.sh
+        dest: /home/ubuntu/server-stats.sh
+        mode: '0755'
+        
+    - name: Ensure the script has execute permissions
+      file:
+        path: /home/ubuntu/server-stats.sh
+        mode: '0755'
+        state: file

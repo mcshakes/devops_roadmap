@@ -1,0 +1,11 @@
+
+aws_keys.tfvars
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.override
+*.override.tf
+*.tfvars
+*.tfvars.json
+.terraform/
