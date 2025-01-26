@@ -1,4 +1,4 @@
-## Requirements
+## Project Overview
 
 For the project [Server Performace Stats](https://roadmap.sh/projects/server-stats), I need to write a script `server-stats.sh` that can analyze basic server performance stats. Should be able to run the script on any Linux server and it should provide the following stats:
 
@@ -81,4 +81,3 @@ Connection to 54.157.40.13 closed.
 User Data is allows you to pass scripts to your EC2 instance at launch. When you specify a user_data script in your Terraform configuration, AWS executes this script (as root user) during the first boot cycle. Lets you configure instace exactly how you want it from the moment it starts.
 
 Initially, I wanted to use Ansible to make the configuration, but that seemed like more work. More pieces that I would need to glue together. This is good for now.
-
