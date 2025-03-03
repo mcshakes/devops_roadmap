@@ -1,1 +1,27 @@
 notes.txt
+
+aws_keys.tfvars
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.override
+*.override.tf
+*.tfvars
+*.tfvars.json
+.terraform/
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+*.pem
+.env
+
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
